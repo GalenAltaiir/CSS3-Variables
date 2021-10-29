@@ -1,0 +1,53 @@
+
+// MY VARIABLES
+
+$blue: blue; // Can be declared anywhere
+
+:root{
+    --color-red: red;
+    // Has to be declared within :root OR specific element, to apply
+    // to all elements or that specific element
+}
+
+footer{
+    --color-green: green;
+}
+
+// CSS
+
+.css{
+    color: var(--color-red);
+}
+
+.scss{
+    color: $blue;
+}
+
+
+footer{
+    color:var(--color-green);
+}
+
+
+
+
+
+
+
+
+
+/////////////////////////////
+main{
+    display: grid;
+    width: 100vw;
+}
+
+html,body{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.25em;
+}
+
+
+
+
+
